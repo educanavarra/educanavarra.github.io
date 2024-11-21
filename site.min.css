@@ -1,0 +1,543 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('roboto-fonts/Roboto-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('roboto-fonts/Roboto-Black.ttf') format('truetype')
+}
+
+.login-page {
+    margin-top: 35px
+}
+
+.body-content {
+    padding-bottom: 30px
+}
+
+.router {
+    background-color: #f3f3f3
+}
+
+.index {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.login-page h2 {
+    font-family: Roboto-Black;
+    font-size: 30px;
+    color: #1d1d1b;
+    margin-bottom: 32px
+}
+
+.botonera {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: right
+}
+
+.alert-info {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #337ab7;
+    font-size: 16px
+}
+
+.alert-info p {
+    font-size: 14px
+}
+
+.alert-info a {
+    color: #337ab7;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.panel-default {
+    background-color: #f3f3f3;
+    margin-right: 20px;
+    border-radius: 0
+}
+
+.lnkAyudaTramitarInet {
+    text-align: center
+}
+
+a.ayuda {
+    font-family: 'Roboto-Black';
+    font-size: 16px;
+    color: #1d1d1b
+}
+
+.lnkResetPassCipna {
+    text-align: center
+}
+
+.form-group label {
+    font-family: Roboto-Black, sans-serif;
+    font-weight: bold;
+    color: #1d1d1b;
+    font-size: 16px
+}
+
+.btn-continue {
+    background-color: #c33;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    font-family: Roboto-Black;
+    font-size: 14px
+}
+
+.form-group input,
+select {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px
+}
+
+p {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 12px;
+    text-align: justify
+}
+
+.info ul li {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 12px;
+    text-align: justify
+}
+
+.btn-continue:hover {
+    background-color: #8d031c;
+    color: #fff
+}
+
+.alert-heading {
+    font-weight: 700
+}
+
+.time {
+    text-align: right;
+    padding-top: 15px;
+    color: #606060;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+    font-weight: 400
+}
+
+.icontime {
+    padding-right: 3px
+}
+
+.info {
+    font-size: 12px
+}
+
+.date {
+    margin-left: 0
+}
+
+.day {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.month {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.year {
+    padding-left: 0
+}
+
+.navbar-brand>.icon-banner {
+    position: relative;
+    top: -2px;
+    display: inline
+}
+
+.icon {
+    position: relative;
+    top: -10px
+}
+
+.logged-out iframe {
+    display: none;
+    width: 0;
+    height: 0
+}
+
+.page-consent .client-logo {
+    float: left
+}
+
+.page-consent .client-logo img {
+    width: 80px;
+    height: 80px
+}
+
+.page-consent .consent-buttons {
+    margin-top: 25px
+}
+
+.page-consent .consent-form .consent-scopecheck {
+    display: inline-block;
+    margin-right: 5px
+}
+
+.page-consent .consent-form .consent-description {
+    margin-left: 25px
+}
+
+.page-consent .consent-form .consent-description label {
+    font-weight: 400
+}
+
+.page-consent .consent-form .consent-remember {
+    padding-left: 16px
+}
+
+.grants .page-header {
+    margin-bottom: 10px
+}
+
+.grants .grant {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d3d3d3
+}
+
+.grants .grant img {
+    width: 100px;
+    height: 100px
+}
+
+.grants .grant .clientname {
+    font-size: 140%;
+    font-weight: 700
+}
+
+.grants .grant .granttype {
+    font-size: 120%;
+    font-weight: 700
+}
+
+.grants .grant .created {
+    font-size: 120%;
+    font-weight: 700
+}
+
+.grants .grant .expires {
+    font-size: 120%;
+    font-weight: 700
+}
+
+.grants .grant li {
+    list-style-type: none;
+    display: inline
+}
+
+.grants .grant li:after {
+    content: ', '
+}
+
+.grants .grant li:last-child:after {
+    content: ''
+}
+
+.login-page .display-name {
+    font-size: 1.6em;
+    color: #2f4f4f;
+    font-family: 'Roboto-Light';
+    font-weight: 600
+}
+
+.login-page .display-name:hover {
+    font-size: 1.6em;
+    color: #bf0404
+}
+
+.login-page .idpcolor {
+    color: #2f4f4f
+}
+
+.login-page .idpcolor:hover {
+    color: #bf0404
+}
+
+.login-page .btn-login {
+    margin-bottom: 20px;
+    width: 300px
+}
+
+.login-page .img-clave {
+    vertical-align: bottom
+}
+
+.numPad input:read-only {
+    background-color: #fff
+}
+
+.numPad #buttonClear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #828282
+}
+
+.gridNumbers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 10px
+}
+
+.gridNumbers input {
+    margin: 0;
+    border-radius: 0
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('roboto-fonts/Roboto-Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('roboto-fonts/Roboto-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('roboto-fonts/Roboto-Black.ttf') format('truetype')
+}
+
+.navbar {
+    margin-bottom: 2px !important;
+    background-color: #fff;
+    position: relative;
+    font-family: Roboto-Bold, sans-serif;
+    font-weight: 400 !important;
+    font-size: 15px;
+    font-style: normal;
+    border-color: #fff;
+    border-bottom: 1px solid #ededed
+}
+
+div.logo {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px
+}
+
+div.language {
+    text-align: right;
+    margin-top: 18px;
+    margin-bottom: 18px
+}
+
+.language ul li {
+    list-style: none;
+    display: inline;
+    border-left: 1px solid #ededed;
+    line-height: 10px;
+    padding: 0 .2em
+}
+
+a.disabled {
+    color: #000
+}
+
+a.active {
+    cursor: none;
+    color: #c33;
+    text-decoration: none
+}
+
+.navtitle {
+    margin-bottom: 2px !important;
+    position: relative;
+    font-family: Roboto-Bold, sans-serif;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    font-style: normal;
+    border-bottom: 1px solid #ededed
+}
+
+.title {
+    font-size: 38px;
+    letter-spacing: -.6px;
+    line-height: 36px;
+    margin: 30px 0 15px 0;
+    padding: 0;
+    color: #1d1d1b;
+    font-family: Roboto-Black, sans-serif;
+    font-weight: normal !important;
+    font-style: normal;
+    text-align: left
+}
+
+.subtitle {
+    font-size: 25px;
+    letter-spacing: -.41px;
+    line-height: 22px;
+    margin: 0 0 35px 0;
+    padding: 0;
+    color: #1d1d1b;
+    font-family: Roboto-Light, sans-serif;
+    font-weight: normal !important;
+    font-style: normal;
+    box-sizing: border-box;
+    text-align: left
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('roboto-fonts/Roboto-Regular.ttf') format('truetype')
+}
+
+.navbar-footer {
+    margin-bottom: 2px !important;
+    background-color: #fff;
+    position: relative;
+    font-family: Roboto-Bold, sans-serif;
+    font-weight: 400 !important;
+    font-size: 15px;
+    font-style: normal;
+    border: 1px solid #ededed
+}
+
+.navbar-fixed-bottom {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 13px
+}
+
+div.logoGN {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-align: center
+}
+
+div.support {
+    text-align: center;
+    margin-top: 22px;
+    color: #606060
+}
+
+div.titleSupport {
+    text-align: center;
+    font-weight: bold
+}
+
+
+/* Estos estilos se a�aden o sobrescriben a los estilos por defecto de Ateka anteriores */
+
+.login-page {
+    margin-top: 0px;
+}
+
+.time {
+    padding-top: 0px;
+}
+
+.panel-default {
+    margin-right: 0px;
+}
+
+.login-page h2 {
+    margin-bottom: 10px;
+}
+
+#kc-page-title {
+    margin: 0px;
+}
+
+h1#kc-page-title {
+    margin-top: 0px;
+}
+
+.alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btn-default {
+    color: #4d5258;
+    background-color: #fff;
+    border-color: #bbb;
+    background-image: none;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+.recordarPass {
+    font-size: 14px;
+}
+
+.login-pf-page {
+    padding-top: 0px;
+}
+
+.login-pf-page .login-pf-page-header {
+    margin-bottom: 0px;
+}
+
+.login-pf-page .card-pf {
+    padding: 0px;
+}
+
+.card-pf {
+    border-top: 0px;
+    box-shadow: none;
+    max-width: none;
+}
+
+a.disabled {
+    cursor: pointer;
+}
+
+#kc-login {
+    border-radius: 1px;
+}
+
+.DESA {
+    background-color: lightblue;
+}
+
+.PRE {
+    background-color: orange;
+}
+
